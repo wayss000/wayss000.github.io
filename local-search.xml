@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>读后感：个体崛起</title>
+    <link href="/2024/01/26/%E8%AF%BB%E5%90%8E%E6%84%9F/%E8%AF%BB%E5%90%8E%E6%84%9F%EF%BC%9A%E4%B8%AA%E4%BD%93%E5%B4%9B%E8%B5%B7/"/>
+    <url>/2024/01/26/%E8%AF%BB%E5%90%8E%E6%84%9F/%E8%AF%BB%E5%90%8E%E6%84%9F%EF%BC%9A%E4%B8%AA%E4%BD%93%E5%B4%9B%E8%B5%B7/</url>
+    
+    <content type="html"><![CDATA[<p>这本书中，有对时间管理的认识，有对金钱的看法，有对职场经验的分享。整体上说，这本书还是对我有启发，尤其是在职场部分，例如《工资是职场最大的陷阱》。有时间的也可以看看，虽然这本书没有说明具体要如何做，但至少说了要做什么好。</p><p>没时间的话，可以抽空看看以几篇，这是我觉得还不错的文章（这些小章节均相互独立，百度即可搜到）。</p><ol><li>《要赚未来的钱》</li><li>《你笑他们太low，他们笑你不懂》</li><li>《高收入都是睡出来的》</li><li>《摆脱低水平的勤奋陷阱，获得高水平的反思能力》</li><li>《为什么别人是高管，你至少员工》</li><li>《请警惕你的“弱者思维”》</li><li>《不忘初心？也许“初心”没那么重要》</li><li>《工资是职场最大的陷阱》</li><li>《你的收入为什么还没有指数增长？》</li></ol><hr><p>偶然翻到自己在5年前写的读后感，人的记忆缺失不靠谱，因为要不是翻到这篇读后感，我忘记了自己读过这本书，即使现在翻到这篇读后感，也忘记了每篇的内容是什么了。^_^</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>读后感</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Artificial Intelligence学习</title>
+    <link href="/2024/01/24/AI/Artificial%20Intelligence%E5%AD%A6%E4%B9%A0/"/>
+    <url>/2024/01/24/AI/Artificial%20Intelligence%E5%AD%A6%E4%B9%A0/</url>
+    
+    <content type="html"><![CDATA[<h1 id="面向初学者的生成式人工智能课程"><a href="#面向初学者的生成式人工智能课程" class="headerlink" title="面向初学者的生成式人工智能课程"></a><a href="https://microsoft.github.io/generative-ai-for-beginners/#/translations/cn/?id=%E9%9D%A2%E5%90%91%E5%88%9D%E5%AD%A6%E8%80%85%E7%9A%84%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%AF%BE%E7%A8%8B">面向初学者的生成式人工智能课程</a></h1><p>课程简介：微软云技术布道师团队提供的十二章系列课程，了解构建生成式 AI 应用程序的基础知识。</p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202401232217387.png" alt="image-20240123221656779"></p><h1 id="课程介绍和学习环境设置"><a href="#课程介绍和学习环境设置" class="headerlink" title="课程介绍和学习环境设置"></a><a href="https://microsoft.github.io/generative-ai-for-beginners/#/00-course-setup/translations/cn/README?wt.mc_id=academic-105485-koreyst&id=%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E5%92%8C%E5%AD%A6%E4%B9%A0%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE">课程介绍和学习环境设置</a></h1><p>代码资料：<a href="https://github.com/microsoft/generative-ai-for-beginners">https://github.com/microsoft/generative-ai-for-beginners</a></p><h1 id="第一章-生成式人工智能和-LLMs-介绍"><a href="#第一章-生成式人工智能和-LLMs-介绍" class="headerlink" title="第一章 : 生成式人工智能和 LLMs 介绍"></a><a href="https://microsoft.github.io/generative-ai-for-beginners/#/01-introduction-to-genai/translations/cn/README?wt.mc_id=academic-105485-koreyst&id=%E7%AC%AC%E4%B8%80%E7%AB%A0-%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%92%8C-llms-%E4%BB%8B%E7%BB%8D">第一章 : 生成式人工智能和 LLMs 介绍</a></h1><p>学习目标，学习完本课程后，您将会了解到：</p><ul><li>什么是生成式人工智能以及 LLMs 如何工作。</li><li>如何针对不同的使用 LLMs 的例子(这里我们重点关注教育场景)。</li></ul><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202401232233910.png" alt="image-20240123223346855"></p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202401232235002.png" alt="image-20240123223553952"></p><h1 id="第二章-探索和比较不同的-LLMs"><a href="#第二章-探索和比较不同的-LLMs" class="headerlink" title="第二章 : 探索和比较不同的 LLMs"></a><a href="https://microsoft.github.io/generative-ai-for-beginners/#/02-exploring-and-comparing-different-llms/translations/cn/README?wt.mc_id=academic-105485-koreyst&id=%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E6%8E%A2%E7%B4%A2%E5%92%8C%E6%AF%94%E8%BE%83%E4%B8%8D%E5%90%8C%E7%9A%84-llms">第二章 : 探索和比较不同的 LLMs</a></h1><p>学习目标，完成本章学习后，您将会学习到：</p><ul><li>为您的应用场景选择合适的模型。</li><li>了解如何测试、迭代和提高模型的性能。</li><li>了解企业如何部署模型。</li></ul><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202401232242290.png" alt="image-20240123224216206"></p><h1 id="第三章-：-负责任地使用生成式人工智能"><a href="#第三章-：-负责任地使用生成式人工智能" class="headerlink" title="第三章 ： 负责任地使用生成式人工智能"></a><a href="https://microsoft.github.io/generative-ai-for-beginners/#/03-using-generative-ai-responsibly/translations/cn/README?wt.mc_id=academic-105485-koreyst&id=%E7%AC%AC%E4%B8%89%E7%AB%A0-%EF%BC%9A-%E8%B4%9F%E8%B4%A3%E4%BB%BB%E5%9C%B0%E4%BD%BF%E7%94%A8%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD">第三章 ： 负责任地使用生成式人工智能</a></h1><p>学习目标，学完本章内容后您将了解到：</p><ul><li>构建生成式人工智能应用程序时负责任的人工智能的重要性。</li><li>在构建生成式 AI 应用程序时何时思考和应用 Responsible AI 的核心原则。</li><li>您可以使用哪些工具和策略来将 Responsible AI 的概念付诸实践。</li></ul><h1 id="第四章：提示工程基础"><a href="#第四章：提示工程基础" class="headerlink" title="第四章：提示工程基础"></a><a href="https://microsoft.github.io/generative-ai-for-beginners/#/04-prompt-engineering-fundamentals/translations/cn/README?wt.mc_id=academic-105485-koreyst&id=%E7%AC%AC%E5%9B%9B%E7%AB%A0%EF%BC%9A%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80">第四章：提示工程基础</a></h1><p>学习目标，在本章中，我们将了解什么是提示工程、为什么它很重要，以及如何针对给定的模型和应用程序目标制定更有效的提示。 我们将了解提示工程的核心概念和最佳实践，并了解交互式 Jupyter Notebooks“沙箱”环境，在 Notebooks 中我们可以看到这些概念应用于实际示例。</p><p>在本课结束时，我们将能够：</p><ol><li>解释什么是提示工程及其重要性。</li><li>描述提示的组成部分及其使用方法。</li><li>学习提示工程的最佳实践和技术。</li><li>结合 OpenAI 将学到的技术应用于实际示例。</li></ol><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202401241737073.png" alt="image-20240124173720763"></p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202401241744140.png" alt="image-20240124174432074"></p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202401241748579.png" alt="image-20240124174808494"></p><p><strong>本章值得反复看，尤其是提示词使用那块</strong></p><h1 id="第五章：创建高级的提示工程技巧"><a href="#第五章：创建高级的提示工程技巧" class="headerlink" title="第五章：创建高级的提示工程技巧"></a><a href="https://microsoft.github.io/generative-ai-for-beginners/#/05-advanced-prompts/translations/cn/README?wt.mc_id=academic-105485-koreyst&id=%E7%AC%AC%E4%BA%94%E7%AB%A0%EF%BC%9A%E5%88%9B%E5%BB%BA%E9%AB%98%E7%BA%A7%E7%9A%84%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B%E6%8A%80%E5%B7%A7">第五章：创建高级的提示工程技巧</a></h1><p>学习目标，完成本课程后，您将能够掌握：</p><ul><li>应用提示工程技术来改善提示结果。</li><li>执行多样化或确定性的提示。</li></ul><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202401241802508.png" alt="image-20240124180212124"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>AI</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>T+1 与 T-1 区别</title>
+    <link href="/2024/01/22/T+1%20%E4%B8%8E%20T-1%20%E5%8C%BA%E5%88%AB/"/>
+    <url>/2024/01/22/T+1%20%E4%B8%8E%20T-1%20%E5%8C%BA%E5%88%AB/</url>
+    
+    <content type="html"><![CDATA[<p>T+1与T-1的区别主要是看数据的角色视角不同</p><ul><li><code>T+1</code>：站在数据生产的视角观察，数据是生产后，T+1天后才被看到（即生产出数据第二天才能看到，所以是 +1）；</li><li><code>T-1</code>：站在数据分析人员等看数据的视角是，看到的数据是T-1的数据（即昨天的数据，所以是-1）。</li></ul><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202401221516493.png" alt="image-20240122151643331"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>一种利用思维导图分析与解决问题的方法</title>
+    <link href="/2024/01/21/%E4%B8%80%E7%A7%8D%E5%88%A9%E7%94%A8%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E5%88%86%E6%9E%90%E4%B8%8E%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+    <url>/2024/01/21/%E4%B8%80%E7%A7%8D%E5%88%A9%E7%94%A8%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E5%88%86%E6%9E%90%E4%B8%8E%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+    
+    <content type="html"><![CDATA[<p>思路如下图：</p><p>​将需要完成的目标的具体实现步骤，梳理出来，越具体越好，梳理的时候需要用逻辑思维推理，完成了这一步，是否能到下一步，如果不能，还需要什么，逻辑关系提前在脑子里理顺了，实现起来也就不会因中途某一步卡住阻塞，打断。</p><p>​PS：这个思路灵感来自与QA（软件测试）在写测试用例时，会提前将需要测试的每一步梳理出来，拉产品、研发评审，之后等测试时就完全按照这个测试用例执行了。</p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202401220031714.png" alt="image-20240121235643801"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>写在30岁生日</title>
+    <link href="/2024/01/21/%E5%86%99%E5%9C%A830%E5%B2%81%E7%94%9F%E6%97%A5/"/>
+    <url>/2024/01/21/%E5%86%99%E5%9C%A830%E5%B2%81%E7%94%9F%E6%97%A5/</url>
+    
+    <content type="html"><![CDATA[<p>​</p><p>​一晃30岁了，取得了一些令自己值得说的成绩，但也有很多想在30岁之前完成事，做了但没有预期的结果。</p><p>​发现还是对自己不够了解。比如自己擅长什么，不擅长什么，喜欢什么，不喜欢什么，一下子是想不出来的。</p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202401212218063.png" alt="image-20240121221842010"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2024/01/21/hello-world/"/>
+    <url>/2024/01/21/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Demo</title>
+    <link href="/2020/10/10/Demo/"/>
+    <url>/2020/10/10/Demo/</url>
+    
+    <content type="html"><![CDATA[<p>Demo ToDo</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>categorie1</category>
+      
+      <category>categorie2</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>tag1</tag>
+      
+      <tag>tag2</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
