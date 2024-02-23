@@ -4,6 +4,38 @@
   
   
   <entry>
+    <title>Java开发面试准备</title>
+    <link href="/2024/02/23/Java%E5%BC%80%E5%8F%91%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
+    <url>/2024/02/23/Java%E5%BC%80%E5%8F%91%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/</url>
+    
+    <content type="html"><![CDATA[<p>软件开发工程师的技术面试，一般分为三个部分：编程语言基础知识（俗称八股）、编程题、项目经验。</p><p>这篇记录下如何准备面试。</p><h2 id="一、八股"><a href="#一、八股" class="headerlink" title="一、八股"></a>一、八股</h2><p>不错的资料1：</p><p><a href="https://www.pdai.tech/">https://www.pdai.tech/</a></p><p><a href="https://www.pdai.tech/md/interview/x-interview.html">Java 全栈知识点问题汇总（上）</a></p><p><a href="https://www.pdai.tech/md/interview/x-interview-2.html">Java 全栈知识点问题汇总（下）</a></p><p>不错的资料2：</p><p>Java Guide：<a href="https://javaguide.cn/home.html">https://javaguide.cn/home.html</a><br>小林图解：<a href="https://xiaolincoding.com/">https://xiaolincoding.com/</a><br>On Java 8：<a href="https://github.com/rocLv/OnJava8">https://github.com/rocLv/OnJava8</a><br>cs-note：<a href="https://cyc2018.xyz/">https://cyc2018.xyz/</a></p><p>其实上面这些资料都挺全的，从入门到架构，都很详细，选一个自己喜欢的风格，认真复习即可。</p><h2 id="二、算法题"><a href="#二、算法题" class="headerlink" title="二、算法题"></a>二、算法题</h2><p>刷题有两个方向：</p><ul><li>按照知识点汇总<ul><li><a href="https://www.programmercarl.com/">https://www.programmercarl.com/</a></li><li><a href="https://github.com/SharingSource/LogicStack-LeetCode/wiki">https://github.com/SharingSource/LogicStack-LeetCode/wiki</a></li></ul></li><li>按照高频考题刷<ul><li><a href="https://codetop.cc/home">https://codetop.cc/home</a></li></ul></li></ul><p>建议先按照知识点刷，先过一遍考点，整体复习一下，之后可以看看高频题。</p><h2 id="三、项目经验"><a href="#三、项目经验" class="headerlink" title="三、项目经验"></a>三、项目经验</h2><p>看看别人的面试经验，根据他的项目问题，思考自己的项目中遇到过什么问题，如何解决的。</p><p>（面经建议现搜索）</p><p>这里提供一些问题作参考：</p><blockquote><ol><li>讲项目</li><li>再讲个项目</li><li>平时读什么源码</li><li>对XX领域架构了解吗？（XX&#x3D;电商、支付、物流）</li><li>常见的限流算法有哪些，你们系统中是如何应用的？</li><li>你的系统如何保障稳定性？</li></ol></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2024节后上班第二天</title>
+    <link href="/2024/02/21/2024%E8%8A%82%E5%90%8E%E4%B8%8A%E7%8F%AD%E7%AC%AC%E4%BA%8C%E5%A4%A9/"/>
+    <url>/2024/02/21/2024%E8%8A%82%E5%90%8E%E4%B8%8A%E7%8F%AD%E7%AC%AC%E4%BA%8C%E5%A4%A9/</url>
+    
+    <content type="html"><![CDATA[<p>节后第二天，坐在工位不知道怎么开始干活，感觉要做的需求收益很低，但又不能不做；想看看机会，又不想在工位明目张胆，坐如针毡，非常难受。百无聊赖，写点东西，平复下心情。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>读后感：个体崛起</title>
     <link href="/2024/01/26/%E8%AF%BB%E5%90%8E%E6%84%9F/%E8%AF%BB%E5%90%8E%E6%84%9F%EF%BC%9A%E4%B8%AA%E4%BD%93%E5%B4%9B%E8%B5%B7/"/>
     <url>/2024/01/26/%E8%AF%BB%E5%90%8E%E6%84%9F/%E8%AF%BB%E5%90%8E%E6%84%9F%EF%BC%9A%E4%B8%AA%E4%BD%93%E5%B4%9B%E8%B5%B7/</url>
@@ -86,19 +118,6 @@
     <url>/2024/01/21/hello-world/</url>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>2024节后上班第二天</title>
-    <link href="/2023/02/21/2024%E8%8A%82%E5%90%8E%E4%B8%8A%E7%8F%AD%E7%AC%AC%E4%BA%8C%E5%A4%A9/"/>
-    <url>/2023/02/21/2024%E8%8A%82%E5%90%8E%E4%B8%8A%E7%8F%AD%E7%AC%AC%E4%BA%8C%E5%A4%A9/</url>
-    
-    <content type="html"><![CDATA[<p>节后第二天，坐在工位不知道怎么开始干活，感觉要做的需求收益很低，但又不能不做；想看看机会，又不想在工位明目张胆，坐如针毡，非常难受。百无聊赖，写点东西，平复下心情。</p>]]></content>
     
     
     
