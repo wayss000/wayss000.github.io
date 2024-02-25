@@ -16,23 +16,25 @@
   <meta name="author" content="大冬瓜头">
   <meta name="keywords" content="">
   
-    <meta name="description" content="软件开发工程师的技术面试，一般分为三个部分：编程语言基础知识（俗称八股）、编程题、项目经验。 这篇记录下如何准备面试。 一、八股不错的资料1： https:&#x2F;&#x2F;www.pdai.tech&#x2F; Java 全栈知识点问题汇总（上） Java 全栈知识点问题汇总（下） 不错的资料2： Java Guide：https:&#x2F;&#x2F;javaguide.cn&#x2F;home.html小林图解：https:&#x2F;&#x2F;xiaolin">
+    <meta name="description" content="Fail-Fast机制fail-fast 机制是Java集合(Collection)中的一种错误机制。 在用迭代器遍历一个集合对象时，如果遍历过程中对集合对象的结构进行了修改（增加、删除），则会抛出Concurrent Modification Exception（并发修改异常）。 Java魔法类：Unsafe  如上图所示，Unsafe提供的API大致可分为内存操作、CAS、Class相关、对象">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Java开发面试准备">
-<meta property="og:url" content="http://blog.wayss000.cn/2024/02/23/Java%E5%BC%80%E5%8F%91%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/index.html">
+<meta property="og:title" content="技术名词积累">
+<meta property="og:url" content="http://blog.wayss000.cn/2024/02/23/%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%A7%AF%E7%B4%AF/index.html">
 <meta property="og:site_name" content="大冬瓜头的博客">
-<meta property="og:description" content="软件开发工程师的技术面试，一般分为三个部分：编程语言基础知识（俗称八股）、编程题、项目经验。 这篇记录下如何准备面试。 一、八股不错的资料1： https:&#x2F;&#x2F;www.pdai.tech&#x2F; Java 全栈知识点问题汇总（上） Java 全栈知识点问题汇总（下） 不错的资料2： Java Guide：https:&#x2F;&#x2F;javaguide.cn&#x2F;home.html小林图解：https:&#x2F;&#x2F;xiaolin">
+<meta property="og:description" content="Fail-Fast机制fail-fast 机制是Java集合(Collection)中的一种错误机制。 在用迭代器遍历一个集合对象时，如果遍历过程中对集合对象的结构进行了修改（增加、删除），则会抛出Concurrent Modification Exception（并发修改异常）。 Java魔法类：Unsafe  如上图所示，Unsafe提供的API大致可分为内存操作、CAS、Class相关、对象">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-02-23T12:39:00.000Z">
-<meta property="article:modified_time" content="2024-02-23T07:43:01.516Z">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202402231709478.png">
+<meta property="article:published_time" content="2024-02-23T13:39:00.000Z">
+<meta property="article:modified_time" content="2024-02-23T09:30:54.138Z">
 <meta property="article:author" content="大冬瓜头">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202402231709478.png">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>Java开发面试准备 - 大冬瓜头的博客</title>
+  <title>技术名词积累 - 大冬瓜头的博客</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -213,7 +215,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Java开发面试准备"></span>
+            <span id="subtitle" data-typed-text="技术名词积累"></span>
           
         </div>
 
@@ -224,7 +226,7 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-02-23 20:39" pubdate>
+        <time datetime="2024-02-23 21:39" pubdate>
           2024年2月23日 晚上
         </time>
       </span>
@@ -236,7 +238,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          345 字
+          223 字
         
       </span>
     
@@ -247,7 +249,7 @@
         
         
         
-          3 分钟
+          2 分钟
         
       </span>
     
@@ -284,46 +286,31 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Java开发面试准备</h1>
+            <h1 id="seo-header">技术名词积累</h1>
             
             
               <div class="markdown-body">
                 
-                <p>软件开发工程师的技术面试，一般分为三个部分：编程语言基础知识（俗称八股）、编程题、项目经验。</p>
-<p>这篇记录下如何准备面试。</p>
-<h2 id="一、八股"><a href="#一、八股" class="headerlink" title="一、八股"></a>一、八股</h2><p>不错的资料1：</p>
-<p><a target="_blank" rel="noopener" href="https://www.pdai.tech/">https://www.pdai.tech/</a></p>
-<p><a target="_blank" rel="noopener" href="https://www.pdai.tech/md/interview/x-interview.html">Java 全栈知识点问题汇总（上）</a></p>
-<p><a target="_blank" rel="noopener" href="https://www.pdai.tech/md/interview/x-interview-2.html">Java 全栈知识点问题汇总（下）</a></p>
-<p>不错的资料2：</p>
-<p>Java Guide：<a target="_blank" rel="noopener" href="https://javaguide.cn/home.html">https://javaguide.cn/home.html</a><br>小林图解：<a target="_blank" rel="noopener" href="https://xiaolincoding.com/">https://xiaolincoding.com/</a><br>On Java 8：<a target="_blank" rel="noopener" href="https://github.com/rocLv/OnJava8">https://github.com/rocLv/OnJava8</a><br>cs-note：<a target="_blank" rel="noopener" href="https://cyc2018.xyz/">https://cyc2018.xyz/</a></p>
-<p>其实上面这些资料都挺全的，从入门到架构，都很详细，选一个自己喜欢的风格，认真复习即可。</p>
-<h2 id="二、算法题"><a href="#二、算法题" class="headerlink" title="二、算法题"></a>二、算法题</h2><p>刷题有两个方向：</p>
-<ul>
-<li>按照知识点汇总<ul>
-<li><a target="_blank" rel="noopener" href="https://www.programmercarl.com/">https://www.programmercarl.com/</a></li>
-<li><a target="_blank" rel="noopener" href="https://github.com/SharingSource/LogicStack-LeetCode/wiki">https://github.com/SharingSource/LogicStack-LeetCode/wiki</a></li>
-</ul>
-</li>
-<li>按照高频考题刷<ul>
-<li><a target="_blank" rel="noopener" href="https://codetop.cc/home">https://codetop.cc/home</a></li>
-</ul>
-</li>
-</ul>
-<p>建议先按照知识点刷，先过一遍考点，整体复习一下，之后可以看看高频题。</p>
-<h2 id="三、项目经验"><a href="#三、项目经验" class="headerlink" title="三、项目经验"></a>三、项目经验</h2><p>看看别人的面试经验，根据他的项目问题，思考自己的项目中遇到过什么问题，如何解决的。</p>
-<p>（面经建议现搜索）</p>
-<p>这里提供一些问题作参考：</p>
+                <h2 id="Fail-Fast机制"><a href="#Fail-Fast机制" class="headerlink" title="Fail-Fast机制"></a>Fail-Fast机制</h2><p>fail-fast 机制是<strong>Java集合(Collection)中的一种错误机制</strong>。 在用迭代器遍历一个集合对象时，如果遍历过程中对集合对象的结构进行了修改（增加、删除），则会抛出Concurrent Modification Exception（并发修改异常）。</p>
+<h2 id="Java魔法类：Unsafe"><a href="#Java魔法类：Unsafe" class="headerlink" title="Java魔法类：Unsafe"></a>Java魔法类：Unsafe</h2><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202402231709478.png" srcset="/img/loading.gif" lazyload alt="img"></p>
 <blockquote>
-<ol>
-<li>讲项目</li>
-<li>再讲个项目</li>
-<li>平时读什么源码</li>
-<li>对XX领域架构了解吗？（XX&#x3D;电商、支付、物流）</li>
-<li>常见的限流算法有哪些，你们系统中是如何应用的？</li>
-<li>你的系统如何保障稳定性？</li>
-</ol>
+<p>如上图所示，Unsafe提供的API大致可分为内存操作、CAS、Class相关、对象操作、线程调度、系统信息获取、内存屏障、数组操作等几类，下面将对其相关方法和应用场景进行详细介绍。</p>
 </blockquote>
+<h2 id="解决线程同步问题的思路"><a href="#解决线程同步问题的思路" class="headerlink" title="解决线程同步问题的思路"></a>解决线程同步问题的思路</h2><ol>
+<li><strong>互斥同步</strong><ol>
+<li>加锁：synchronized 和 ReentrantLock。</li>
+</ol>
+</li>
+<li><strong>非阻塞同步</strong><ol>
+<li>CAS</li>
+<li>AtomicInteger</li>
+</ol>
+</li>
+<li><strong>无同步方案</strong><ol>
+<li>要保证线程安全，并不是一定就要进行同步。如果一个方法本来就不涉及共享数据，那它自然就无须任何同步措施去保证正确性。</li>
+</ol>
+</li>
+</ol>
 
                 
               </div>
@@ -362,8 +349,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Java开发面试准备</div>
-      <div>http://blog.wayss000.cn/2024/02/23/Java开发面试准备/</div>
+      <div>技术名词积累</div>
+      <div>http://blog.wayss000.cn/2024/02/23/技术名词积累/</div>
     </div>
     <div class="license-meta">
       
@@ -407,9 +394,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/02/23/%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%A7%AF%E7%B4%AF/" title="技术名词积累">
+                      <a href="/2024/02/25/%E5%A6%82%E4%BD%95%E5%81%9A%E4%B8%80%E4%BB%B6%E4%BA%8B/" title="如何做一件事">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">技术名词积累</span>
+                        <span class="hidden-mobile">如何做一件事</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -417,8 +404,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/02/21/2024%E8%8A%82%E5%90%8E%E4%B8%8A%E7%8F%AD%E7%AC%AC%E4%BA%8C%E5%A4%A9/" title="2024节后上班第二天">
-                        <span class="hidden-mobile">2024节后上班第二天</span>
+                      <a href="/2024/02/23/Java%E5%BC%80%E5%8F%91%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/" title="Java开发面试准备">
+                        <span class="hidden-mobile">Java开发面试准备</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

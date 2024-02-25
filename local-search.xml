@@ -4,6 +4,44 @@
   
   
   <entry>
+    <title>如何做一件事</title>
+    <link href="/2024/02/25/%E5%A6%82%E4%BD%95%E5%81%9A%E4%B8%80%E4%BB%B6%E4%BA%8B/"/>
+    <url>/2024/02/25/%E5%A6%82%E4%BD%95%E5%81%9A%E4%B8%80%E4%BB%B6%E4%BA%8B/</url>
+    
+    <content type="html"><![CDATA[<p>最近发现自己做事，有头无尾，有始无终。比如说健身，看了一些视频，买了一堆装备，去了几次，就慢慢频率减少，直到不去了；准备看看机会，做了简历，制定了复习计划，又慢慢没有了下文了；还有好多事，也是类似。</p><p>于是思考可能的原因，推测，是对要完成的事情没有一个清晰的认识，没有想清楚这件事做成之后，我是一个什么样的状态，周围的事物是一个什么样的状态，周围的人会是一个什么样的状态。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>随笔</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>技术名词积累</title>
+    <link href="/2024/02/23/%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%A7%AF%E7%B4%AF/"/>
+    <url>/2024/02/23/%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%A7%AF%E7%B4%AF/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Fail-Fast机制"><a href="#Fail-Fast机制" class="headerlink" title="Fail-Fast机制"></a>Fail-Fast机制</h2><p>fail-fast 机制是<strong>Java集合(Collection)中的一种错误机制</strong>。 在用迭代器遍历一个集合对象时，如果遍历过程中对集合对象的结构进行了修改（增加、删除），则会抛出Concurrent Modification Exception（并发修改异常）。</p><h2 id="Java魔法类：Unsafe"><a href="#Java魔法类：Unsafe" class="headerlink" title="Java魔法类：Unsafe"></a>Java魔法类：Unsafe</h2><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202402231709478.png" alt="img"></p><blockquote><p>如上图所示，Unsafe提供的API大致可分为内存操作、CAS、Class相关、对象操作、线程调度、系统信息获取、内存屏障、数组操作等几类，下面将对其相关方法和应用场景进行详细介绍。</p></blockquote><h2 id="解决线程同步问题的思路"><a href="#解决线程同步问题的思路" class="headerlink" title="解决线程同步问题的思路"></a>解决线程同步问题的思路</h2><ol><li><strong>互斥同步</strong><ol><li>加锁：synchronized 和 ReentrantLock。</li></ol></li><li><strong>非阻塞同步</strong><ol><li>CAS</li><li>AtomicInteger</li></ol></li><li><strong>无同步方案</strong><ol><li>要保证线程安全，并不是一定就要进行同步。如果一个方法本来就不涉及共享数据，那它自然就无须任何同步措施去保证正确性。</li></ol></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Java开发面试准备</title>
     <link href="/2024/02/23/Java%E5%BC%80%E5%8F%91%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
     <url>/2024/02/23/Java%E5%BC%80%E5%8F%91%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/</url>
