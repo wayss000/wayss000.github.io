@@ -16,25 +16,25 @@
   <meta name="author" content="大冬瓜头">
   <meta name="keywords" content="">
   
-    <meta name="description" content="T+1与T-1的区别主要是看数据的角色视角不同  T+1：站在数据生产的视角观察，数据是生产后，T+1天后才被看到（即生产出数据第二天才能看到，所以是 +1）； T-1：站在数据分析人员等看数据的视角是，看到的数据是T-1的数据（即昨天的数据，所以是-1）。">
+    <meta name="description" content="Fail-Fast机制fail-fast 机制是Java集合(Collection)中的一种错误机制。 在用迭代器遍历一个集合对象时，如果遍历过程中对集合对象的结构进行了修改（增加、删除），则会抛出Concurrent Modification Exception（并发修改异常）。 Java魔法类：Unsafe  如上图所示，Unsafe提供的API大致可分为内存操作、CAS、Class相关、对象">
 <meta property="og:type" content="article">
-<meta property="og:title" content="T+1 与 T-1 区别">
-<meta property="og:url" content="http://blog.wayss000.cn/2024/01/22/T+1%20%E4%B8%8E%20T-1%20%E5%8C%BA%E5%88%AB/index.html">
+<meta property="og:title" content="技术名词积累">
+<meta property="og:url" content="http://blog.wayss000.cn/2024/02/23/%E6%8A%80%E6%9C%AF/%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%A7%AF%E7%B4%AF/index.html">
 <meta property="og:site_name" content="大冬瓜头的博客">
-<meta property="og:description" content="T+1与T-1的区别主要是看数据的角色视角不同  T+1：站在数据生产的视角观察，数据是生产后，T+1天后才被看到（即生产出数据第二天才能看到，所以是 +1）； T-1：站在数据分析人员等看数据的视角是，看到的数据是T-1的数据（即昨天的数据，所以是-1）。">
+<meta property="og:description" content="Fail-Fast机制fail-fast 机制是Java集合(Collection)中的一种错误机制。 在用迭代器遍历一个集合对象时，如果遍历过程中对集合对象的结构进行了修改（增加、删除），则会抛出Concurrent Modification Exception（并发修改异常）。 Java魔法类：Unsafe  如上图所示，Unsafe提供的API大致可分为内存操作、CAS、Class相关、对象">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202401221516493.png">
-<meta property="article:published_time" content="2024-01-22T07:53:14.000Z">
-<meta property="article:modified_time" content="2024-01-24T12:58:49.210Z">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202402231709478.png">
+<meta property="article:published_time" content="2024-02-23T13:39:00.000Z">
+<meta property="article:modified_time" content="2024-02-23T09:30:54.138Z">
 <meta property="article:author" content="大冬瓜头">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202401221516493.png">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202402231709478.png">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>T+1 与 T-1 区别 - 大冬瓜头的博客</title>
+  <title>技术名词积累 - 大冬瓜头的博客</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -215,7 +215,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="T+1 与 T-1 区别"></span>
+            <span id="subtitle" data-typed-text="技术名词积累"></span>
           
         </div>
 
@@ -226,8 +226,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-01-22 15:53" pubdate>
-          2024年1月22日 下午
+        <time datetime="2024-02-23 21:39" pubdate>
+          2024年2月23日 晚上
         </time>
       </span>
     
@@ -238,7 +238,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          102 字
+          223 字
         
       </span>
     
@@ -249,7 +249,7 @@
         
         
         
-          1 分钟
+          2 分钟
         
       </span>
     
@@ -286,17 +286,31 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">T+1 与 T-1 区别</h1>
+            <h1 id="seo-header">技术名词积累</h1>
             
             
               <div class="markdown-body">
                 
-                <p>T+1与T-1的区别主要是看数据的角色视角不同</p>
-<ul>
-<li><code>T+1</code>：站在数据生产的视角观察，数据是生产后，T+1天后才被看到（即生产出数据第二天才能看到，所以是 +1）；</li>
-<li><code>T-1</code>：站在数据分析人员等看数据的视角是，看到的数据是T-1的数据（即昨天的数据，所以是-1）。</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202401221516493.png" srcset="/img/loading.gif" lazyload alt="image-20240122151643331"></p>
+                <h2 id="Fail-Fast机制"><a href="#Fail-Fast机制" class="headerlink" title="Fail-Fast机制"></a>Fail-Fast机制</h2><p>fail-fast 机制是<strong>Java集合(Collection)中的一种错误机制</strong>。 在用迭代器遍历一个集合对象时，如果遍历过程中对集合对象的结构进行了修改（增加、删除），则会抛出Concurrent Modification Exception（并发修改异常）。</p>
+<h2 id="Java魔法类：Unsafe"><a href="#Java魔法类：Unsafe" class="headerlink" title="Java魔法类：Unsafe"></a>Java魔法类：Unsafe</h2><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202402231709478.png" srcset="/img/loading.gif" lazyload alt="img"></p>
+<blockquote>
+<p>如上图所示，Unsafe提供的API大致可分为内存操作、CAS、Class相关、对象操作、线程调度、系统信息获取、内存屏障、数组操作等几类，下面将对其相关方法和应用场景进行详细介绍。</p>
+</blockquote>
+<h2 id="解决线程同步问题的思路"><a href="#解决线程同步问题的思路" class="headerlink" title="解决线程同步问题的思路"></a>解决线程同步问题的思路</h2><ol>
+<li><strong>互斥同步</strong><ol>
+<li>加锁：synchronized 和 ReentrantLock。</li>
+</ol>
+</li>
+<li><strong>非阻塞同步</strong><ol>
+<li>CAS</li>
+<li>AtomicInteger</li>
+</ol>
+</li>
+<li><strong>无同步方案</strong><ol>
+<li>要保证线程安全，并不是一定就要进行同步。如果一个方法本来就不涉及共享数据，那它自然就无须任何同步措施去保证正确性。</li>
+</ol>
+</li>
+</ol>
 
                 
               </div>
@@ -304,6 +318,27 @@
             <hr/>
             <div>
               <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E6%8A%80%E6%9C%AF/" class="category-chain-item">技术</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
   
   
 </div>
@@ -314,8 +349,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>T+1 与 T-1 区别</div>
-      <div>http://blog.wayss000.cn/2024/01/22/T+1 与 T-1 区别/</div>
+      <div>技术名词积累</div>
+      <div>http://blog.wayss000.cn/2024/02/23/技术/技术名词积累/</div>
     </div>
     <div class="license-meta">
       
@@ -327,7 +362,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年1月22日</div>
+          <div>2024年2月23日</div>
         </div>
       
       
@@ -359,9 +394,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/01/24/AI/Artificial%20Intelligence%E5%AD%A6%E4%B9%A0/" title="Artificial Intelligence学习">
+                      <a href="/2024/02/25/%E6%96%B9%E6%B3%95%E8%AE%BA/%E5%A6%82%E4%BD%95%E5%81%9A%E4%B8%80%E4%BB%B6%E4%BA%8B/" title="如何做一件事">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Artificial Intelligence学习</span>
+                        <span class="hidden-mobile">如何做一件事</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -369,8 +404,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/01/21/%E4%B8%80%E7%A7%8D%E5%88%A9%E7%94%A8%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E5%88%86%E6%9E%90%E4%B8%8E%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98%E7%9A%84%E6%96%B9%E6%B3%95/" title="一种利用思维导图分析与解决问题的方法">
-                        <span class="hidden-mobile">一种利用思维导图分析与解决问题的方法</span>
+                      <a href="/2024/02/23/%E6%8A%80%E6%9C%AF/Java%E5%BC%80%E5%8F%91%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/" title="Java开发面试准备">
+                        <span class="hidden-mobile">Java开发面试准备</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
