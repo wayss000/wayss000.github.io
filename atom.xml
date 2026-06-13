@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>拾水木的博客</title>
+  
+  
+  <link href="http://blog.wayss000.cn/atom.xml" rel="self"/>
+  
+  <link href="http://blog.wayss000.cn/"/>
+  <updated>2026-06-13T03:01:01.834Z</updated>
+  <id>http://blog.wayss000.cn/</id>
+  
+  <author>
+    <name>大冬瓜头</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AI取代编程岗位而非工程师</title>
+    <link href="http://blog.wayss000.cn/2026/06/12/weibo/mjqxntu0nze0/"/>
+    <id>http://blog.wayss000.cn/2026/06/12/weibo/mjqxntu0nze0/</id>
+    <published>2026-06-12T13:00:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>听到两人聊天说，现在发现AI最先取代的可能是程序员。我觉得这句话只说对了一半，AI取代的是编程这个岗位。但淘汰不了软件开发工程师这波人。因为这帮人的学历水平、创造力、认知相对来说都是比较高的。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;听到两人聊天说，现在发现AI最先取代的可能是程序员。我觉得这句话只说对了一半，AI取代的是编程这个岗位。但淘汰不了软件开发工程师这波人。因为这帮人的学历水平、创造力、认知相对来说都是比较高的。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>省事求AI反而更费事</title>
+    <link href="http://blog.wayss000.cn/2026/06/10/weibo/mjqxmji4mtk1/"/>
+    <id>http://blog.wayss000.cn/2026/06/10/weibo/mjqxmji4mtk1/</id>
+    <published>2026-06-10T15:19:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>今早尝试让Hermes在它所在Ubuntu机器上用Docker安装一个web_search工具，最终它耗费了20多刀的GPT-5.4额度，把服务器安装死机了，也没弄好。我思考原因：一是我那台Ubuntu机器配置较低；二是最后需要Hermes修改自己的配置，这相当于让机器人给自己换电池，本身就容易出错。最后我登上服务器，认真看了Hermes的官方文档，写的很具体，很快就执行好了，不到10分钟。但是在我看官方文档之前，我问了ChatGPT和Gemini，想省事，结果更费事。目前，让AI干活体验最好的就是MacOS上运行的CodeX，本身不支持用户改它重要的配置，各种工具基本都内部集成了，MacOS安装也比较省事。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今早尝试让Hermes在它所在Ubuntu机器上用Docker安装一个web_search工具，最终它耗费了20多刀的GPT-5.4额度，把服务器安装死机了，也没弄好。我思考原因：一是我那台Ubuntu机器配置较低；二是最后需要Hermes修改自己的配置，这相当于让机器人给</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一次 AI 自动化实践：批量把小红书作品设为仅自己可见</title>
+    <link href="http://blog.wayss000.cn/2026/06/06/%E6%8A%80%E6%9C%AF/%E7%94%A8AI%E6%89%B9%E9%87%8F%E6%8A%8A%E5%B0%8F%E7%BA%A2%E4%B9%A6%E4%BD%9C%E5%93%81%E8%AE%BE%E4%B8%BA%E4%BB%85%E8%87%AA%E5%B7%B1%E5%8F%AF%E8%A7%81/"/>
+    <id>http://blog.wayss000.cn/2026/06/06/%E6%8A%80%E6%9C%AF/%E7%94%A8AI%E6%89%B9%E9%87%8F%E6%8A%8A%E5%B0%8F%E7%BA%A2%E4%B9%A6%E4%BD%9C%E5%93%81%E8%AE%BE%E4%B8%BA%E4%BB%85%E8%87%AA%E5%B7%B1%E5%8F%AF%E8%A7%81/</id>
+    <published>2026-06-06T17:30:00.000Z</published>
+    <updated>2026-06-13T03:01:01.836Z</updated>
+    
+    <content type="html"><![CDATA[<p>有时候想把小红书历史作品统一改成“仅自己可见”，但平台通常没有提供批量设置入口。<br>这时候最省事的办法，不是手动一条条点，而是让 AI 帮你写一个页面自动化脚本，再由 AI 或你自己执行。</p><span id="more"></span><h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>抖音有作品批量管理，比如作品批量删除、批量设置为仅自己可见。</p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202606130843310.png" alt="image-20260613084344330"></p><p>但是，小红书的创作者中心是没有的。</p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202606130845251.png" alt="image-20260613084522193"></p><h2 id="做法"><a href="#做法" class="headerlink" title="做法"></a>做法</h2><p>可以让Codex全自动帮你把小红书的作品，自动帮你设置为某个状态。</p><p>Codex自动化做的事情：</p><ol><li>打开小红书创作平台的作品管理页</li><li>自动遍历作品卡片</li><li>逐条打开权限设置</li><li>改成“仅自己可见”</li><li>自动滚动，直到全部处理完成</li></ol><p>Codex产生的代码，发出来分享，当然，也可以按照后面的提示词，让AI重头干：</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Run this in the DevTools console on:</span></span><br><span class="line"><span class="comment">// https://creator.xiaohongshu.com/new/note-manager</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">// It scrolls through all loaded notes, opens each note&#x27;s privacy dialog,</span></span><br><span class="line"><span class="comment">// switches the note to &quot;仅自己可见&quot;, and keeps going until it reaches the</span></span><br><span class="line"><span class="comment">// total count shown on the page.</span></span><br><span class="line"></span><br><span class="line">(<span class="keyword">async</span> () =&gt; &#123;</span><br><span class="line">  <span class="keyword">const</span> <span class="variable constant_">CONFIG</span> = &#123;</span><br><span class="line">    <span class="attr">targetPrivacyText</span>: <span class="string">&quot;仅自己可见&quot;</span>,</span><br><span class="line">    <span class="attr">totalCountPattern</span>: <span class="regexp">/全部\s*(\d+)/</span>,</span><br><span class="line">    <span class="attr">maxIdleRounds</span>: <span class="number">5</span>,</span><br><span class="line">    <span class="attr">modalTimeoutMs</span>: <span class="number">20000</span>,</span><br><span class="line">    <span class="attr">optionTimeoutMs</span>: <span class="number">10000</span>,</span><br><span class="line">    <span class="attr">scrollWaitMs</span>: <span class="number">1800</span>,</span><br><span class="line">    <span class="attr">postConfirmWaitMs</span>: <span class="number">500</span>,</span><br><span class="line">  &#125;;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> <span class="title function_">sleep</span> = (<span class="params">ms</span>) =&gt; <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="function">(<span class="params">resolve</span>) =&gt;</span> <span class="built_in">setTimeout</span>(resolve, ms));</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> <span class="title function_">waitFor</span> = <span class="keyword">async</span> (<span class="params">fn, timeoutMs, errorMessage</span>) =&gt; &#123;</span><br><span class="line">    <span class="keyword">const</span> start = <span class="title class_">Date</span>.<span class="title function_">now</span>();</span><br><span class="line">    <span class="keyword">while</span> (<span class="title class_">Date</span>.<span class="title function_">now</span>() - start &lt; timeoutMs) &#123;</span><br><span class="line">      <span class="keyword">const</span> value = <span class="title function_">fn</span>();</span><br><span class="line">      <span class="keyword">if</span> (value) <span class="keyword">return</span> value;</span><br><span class="line">      <span class="keyword">await</span> <span class="title function_">sleep</span>(<span class="number">100</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">Error</span>(errorMessage);</span><br><span class="line">  &#125;;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> <span class="title function_">getTotalCount</span> = (<span class="params"></span>) =&gt; &#123;</span><br><span class="line">    <span class="keyword">const</span> match = <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">innerText</span>.<span class="title function_">match</span>(<span class="variable constant_">CONFIG</span>.<span class="property">totalCountPattern</span>);</span><br><span class="line">    <span class="keyword">return</span> match ? <span class="title class_">Number</span>(match[<span class="number">1</span>]) : <span class="literal">null</span>;</span><br><span class="line">  &#125;;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> <span class="title function_">getCards</span> = (<span class="params"></span>) =&gt; [...<span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.note-card&quot;</span>)];</span><br><span class="line">  <span class="keyword">const</span> <span class="title function_">getScrollContainer</span> = (<span class="params"></span>) =&gt;</span><br><span class="line">    <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&quot;.content&quot;</span>) || <span class="variable language_">document</span>.<span class="property">scrollingElement</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> <span class="title function_">getNoteId</span> = (<span class="params">card</span>) =&gt; &#123;</span><br><span class="line">    <span class="keyword">const</span> raw = card.<span class="title function_">getAttribute</span>(<span class="string">&quot;data-impression&quot;</span>);</span><br><span class="line">    <span class="keyword">if</span> (!raw) <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="title class_">JSON</span>.<span class="title function_">parse</span>(raw)?.<span class="property">noteTarget</span>?.<span class="property">value</span>?.<span class="property">noteId</span> ?? <span class="literal">null</span>;</span><br><span class="line">    &#125; <span class="keyword">catch</span> &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> <span class="title function_">isAlreadyPrivate</span> = (<span class="params">card</span>) =&gt;</span><br><span class="line">    card.<span class="title function_">querySelector</span>(<span class="string">&quot;.permission_msg&quot;</span>)?.<span class="property">textContent</span>?.<span class="title function_">trim</span>() === <span class="variable constant_">CONFIG</span>.<span class="property">targetPrivacyText</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> <span class="title function_">getPrivacyTrigger</span> = (<span class="params"></span>) =&gt;</span><br><span class="line">    [...<span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.d-select *&quot;</span>)]</span><br><span class="line">      .<span class="title function_">find</span>(<span class="function">(<span class="params">el</span>) =&gt;</span> &#123;</span><br><span class="line">        <span class="keyword">const</span> text = el.<span class="property">textContent</span>?.<span class="title function_">trim</span>();</span><br><span class="line">        <span class="keyword">return</span> (</span><br><span class="line">          [</span><br><span class="line">            <span class="string">&quot;公开可见&quot;</span>,</span><br><span class="line">            <span class="string">&quot;仅自己可见&quot;</span>,</span><br><span class="line">            <span class="string">&quot;仅互关好友可见&quot;</span>,</span><br><span class="line">            <span class="string">&quot;部分人可见&quot;</span>,</span><br><span class="line">            <span class="string">&quot;部分人不可见&quot;</span>,</span><br><span class="line">          ].<span class="title function_">includes</span>(text) &amp;&amp; el.<span class="title function_">closest</span>(<span class="string">&quot;.d-select&quot;</span>)</span><br><span class="line">        );</span><br><span class="line">      &#125;)</span><br><span class="line">      ?.<span class="title function_">closest</span>(<span class="string">&quot;.d-select&quot;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> <span class="title function_">getPrivacyOption</span> = (<span class="params"></span>) =&gt;</span><br><span class="line">    [...<span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.d-options-wrapper .d-grid-item&quot;</span>)]</span><br><span class="line">      .<span class="title function_">find</span>(<span class="function">(<span class="params">el</span>) =&gt;</span> el.<span class="property">textContent</span>?.<span class="title function_">trim</span>() === <span class="variable constant_">CONFIG</span>.<span class="property">targetPrivacyText</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> <span class="title function_">getConfirmButton</span> = (<span class="params"></span>) =&gt;</span><br><span class="line">    [...<span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;button&quot;</span>)]</span><br><span class="line">      .<span class="title function_">find</span>(<span class="function">(<span class="params">button</span>) =&gt;</span> button.<span class="property">textContent</span>?.<span class="title function_">trim</span>() === <span class="string">&quot;确定&quot;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> <span class="title function_">setNotePrivate</span> = <span class="keyword">async</span> (<span class="params">card</span>) =&gt; &#123;</span><br><span class="line">    <span class="keyword">const</span> noteId = <span class="title function_">getNoteId</span>(card);</span><br><span class="line">    <span class="keyword">if</span> (!noteId) <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">Error</span>(<span class="string">&quot;Missing note id&quot;</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (<span class="title function_">isAlreadyPrivate</span>(card)) &#123;</span><br><span class="line">      <span class="keyword">return</span> &#123; noteId, <span class="attr">changed</span>: <span class="literal">false</span> &#125;;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">const</span> privacyBtn = card.<span class="title function_">querySelector</span>(<span class="string">&quot;.note-card__actions .note-card__action-btn&quot;</span>);</span><br><span class="line">    <span class="keyword">if</span> (!privacyBtn) <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">Error</span>(<span class="string">`Missing privacy button: <span class="subst">$&#123;noteId&#125;</span>`</span>);</span><br><span class="line"></span><br><span class="line">    privacyBtn.<span class="title function_">click</span>();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">await</span> <span class="title function_">waitFor</span>(</span><br><span class="line">      <span class="function">() =&gt;</span> <span class="title function_">getConfirmButton</span>(),</span><br><span class="line">      <span class="variable constant_">CONFIG</span>.<span class="property">modalTimeoutMs</span>,</span><br><span class="line">      <span class="string">`Privacy dialog did not open: <span class="subst">$&#123;noteId&#125;</span>`</span></span><br><span class="line">    );</span><br><span class="line"></span><br><span class="line">    <span class="keyword">const</span> trigger = <span class="keyword">await</span> <span class="title function_">waitFor</span>(</span><br><span class="line">      <span class="function">() =&gt;</span> <span class="title function_">getPrivacyTrigger</span>(),</span><br><span class="line">      <span class="variable constant_">CONFIG</span>.<span class="property">optionTimeoutMs</span>,</span><br><span class="line">      <span class="string">`Privacy selector missing: <span class="subst">$&#123;noteId&#125;</span>`</span></span><br><span class="line">    );</span><br><span class="line">    trigger.<span class="title function_">click</span>();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">const</span> option = <span class="keyword">await</span> <span class="title function_">waitFor</span>(</span><br><span class="line">      <span class="function">() =&gt;</span> <span class="title function_">getPrivacyOption</span>(),</span><br><span class="line">      <span class="variable constant_">CONFIG</span>.<span class="property">optionTimeoutMs</span>,</span><br><span class="line">      <span class="string">`Privacy option missing: <span class="subst">$&#123;noteId&#125;</span>`</span></span><br><span class="line">    );</span><br><span class="line">    option.<span class="title function_">click</span>();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">const</span> confirm = <span class="keyword">await</span> <span class="title function_">waitFor</span>(</span><br><span class="line">      <span class="function">() =&gt;</span> <span class="title function_">getConfirmButton</span>(),</span><br><span class="line">      <span class="variable constant_">CONFIG</span>.<span class="property">optionTimeoutMs</span>,</span><br><span class="line">      <span class="string">`Confirm button missing: <span class="subst">$&#123;noteId&#125;</span>`</span></span><br><span class="line">    );</span><br><span class="line">    confirm.<span class="title function_">click</span>();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">await</span> <span class="title function_">waitFor</span>(</span><br><span class="line">      <span class="function">() =&gt;</span> !<span class="title function_">getConfirmButton</span>(),</span><br><span class="line">      <span class="variable constant_">CONFIG</span>.<span class="property">modalTimeoutMs</span>,</span><br><span class="line">      <span class="string">`Privacy dialog did not close: <span class="subst">$&#123;noteId&#125;</span>`</span></span><br><span class="line">    );</span><br><span class="line"></span><br><span class="line">    <span class="keyword">await</span> <span class="title function_">sleep</span>(<span class="variable constant_">CONFIG</span>.<span class="property">postConfirmWaitMs</span>);</span><br><span class="line">    <span class="keyword">return</span> &#123; noteId, <span class="attr">changed</span>: <span class="literal">true</span> &#125;;</span><br><span class="line">  &#125;;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> total = <span class="title function_">getTotalCount</span>();</span><br><span class="line">  <span class="keyword">if</span> (!total) &#123;</span><br><span class="line">    <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">Error</span>(<span class="string">&quot;Could not read note total from the page&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> seen = <span class="keyword">new</span> <span class="title class_">Set</span>();</span><br><span class="line">  <span class="keyword">let</span> changedCount = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">let</span> skippedCount = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">let</span> idleRounds = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`[xhs-private] target total: <span class="subst">$&#123;total&#125;</span>`</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">while</span> (seen.<span class="property">size</span> &lt; total &amp;&amp; idleRounds &lt; <span class="variable constant_">CONFIG</span>.<span class="property">maxIdleRounds</span>) &#123;</span><br><span class="line">    <span class="keyword">const</span> cards = <span class="title function_">getCards</span>();</span><br><span class="line">    <span class="keyword">let</span> roundProgress = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">const</span> card <span class="keyword">of</span> cards) &#123;</span><br><span class="line">      <span class="keyword">const</span> noteId = <span class="title function_">getNoteId</span>(card);</span><br><span class="line">      <span class="keyword">if</span> (!noteId || seen.<span class="title function_">has</span>(noteId)) <span class="keyword">continue</span>;</span><br><span class="line"></span><br><span class="line">      <span class="keyword">const</span> result = <span class="keyword">await</span> <span class="title function_">setNotePrivate</span>(card);</span><br><span class="line">      seen.<span class="title function_">add</span>(noteId);</span><br><span class="line">      roundProgress += <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">      <span class="keyword">if</span> (result.<span class="property">changed</span>) &#123;</span><br><span class="line">        changedCount += <span class="number">1</span>;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`[xhs-private] changed <span class="subst">$&#123;changedCount&#125;</span>: <span class="subst">$&#123;noteId&#125;</span>`</span>);</span><br><span class="line">      &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        skippedCount += <span class="number">1</span>;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`[xhs-private] already private <span class="subst">$&#123;skippedCount&#125;</span>: <span class="subst">$&#123;noteId&#125;</span>`</span>);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">const</span> beforeCount = cards.<span class="property">length</span>;</span><br><span class="line">    <span class="keyword">const</span> scrollContainer = <span class="title function_">getScrollContainer</span>();</span><br><span class="line">    <span class="keyword">if</span> (scrollContainer) &#123;</span><br><span class="line">      scrollContainer.<span class="property">scrollTop</span> = scrollContainer.<span class="property">scrollHeight</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">await</span> <span class="title function_">sleep</span>(<span class="variable constant_">CONFIG</span>.<span class="property">scrollWaitMs</span>);</span><br><span class="line">    <span class="keyword">const</span> afterCount = <span class="title function_">getCards</span>().<span class="property">length</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (roundProgress === <span class="number">0</span> &amp;&amp; afterCount === beforeCount) &#123;</span><br><span class="line">      idleRounds += <span class="number">1</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">      idleRounds = <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(</span><br><span class="line">      <span class="string">`[xhs-private] seen=<span class="subst">$&#123;seen.size&#125;</span>/<span class="subst">$&#123;total&#125;</span>, loaded=<span class="subst">$&#123;afterCount&#125;</span>, changed=<span class="subst">$&#123;changedCount&#125;</span>, skipped=<span class="subst">$&#123;skippedCount&#125;</span>, idleRounds=<span class="subst">$&#123;idleRounds&#125;</span>`</span></span><br><span class="line">    );</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> success = seen.<span class="property">size</span> &gt;= total;</span><br><span class="line">  <span class="keyword">const</span> summary = &#123;</span><br><span class="line">    success,</span><br><span class="line">    total,</span><br><span class="line">    <span class="attr">seen</span>: seen.<span class="property">size</span>,</span><br><span class="line">    <span class="attr">changed</span>: changedCount,</span><br><span class="line">    <span class="attr">skipped</span>: skippedCount,</span><br><span class="line">    idleRounds,</span><br><span class="line">  &#125;;</span><br><span class="line"></span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;[xhs-private] summary&quot;</span>, summary);</span><br><span class="line">  <span class="keyword">return</span> summary;</span><br><span class="line">&#125;)().<span class="title function_">catch</span>(<span class="function">(<span class="params">error</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">error</span>(<span class="string">&quot;[xhs-private] failed&quot;</span>, error);</span><br><span class="line">  <span class="keyword">throw</span> error;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>你可以直接把下面这段话发给 Codex、Hermes 或其他支持浏览器操作的 AI：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">请打开这个页面，先不要直接写接口脚本。</span><br><span class="line">先检查真实 DOM 结构，确认列表项、操作按钮、弹窗、目标选项和滚动容器。</span><br><span class="line">然后写一个可以批量执行的页面脚本。</span><br><span class="line"></span><br><span class="line">目标：</span><br><span class="line">把当前列表里的全部作品批量改成“仅自己可见”。</span><br><span class="line"></span><br><span class="line">要求：</span><br><span class="line">1. 优先使用页面原生交互，不要先猜接口</span><br><span class="line">2. 能自动滚动加载全部数据</span><br><span class="line">3. 已经是目标状态的作品要跳过</span><br><span class="line">4. 输出处理总数、成功数、跳过数</span><br><span class="line">5. 最后把脚本保存成一个独立的 js 文件</span><br></pre></td></tr></table></figure><p>如果你的目标不是“仅自己可见”，只要把提示词里的目标文案换掉即可。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>感叹现在的AI Agent真牛逼。真的要多试，“多偷懒”，多用。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;有时候想把小红书历史作品统一改成“仅自己可见”，但平台通常没有提供批量设置入口。&lt;br&gt;这时候最省事的办法，不是手动一条条点，而是让 AI 帮你写一个页面自动化脚本，再由 AI 或你自己执行。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="http://blog.wayss000.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="AI" scheme="http://blog.wayss000.cn/tags/AI/"/>
+    
+    <category term="自动化" scheme="http://blog.wayss000.cn/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    
+    <category term="小红书" scheme="http://blog.wayss000.cn/tags/%E5%B0%8F%E7%BA%A2%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>提醒自动化会削弱记忆</title>
+    <link href="http://blog.wayss000.cn/2026/06/05/weibo/mjqwmzkwnjiw/"/>
+    <id>http://blog.wayss000.cn/2026/06/05/weibo/mjqwmzkwnjiw/</id>
+    <published>2026-06-05T13:35:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近发现在个人提醒这块，不能做自动化，因为我发现做完自动化之后，我就会把这事给忘干净了。比如我让AI替我做每日总结，根据我的日报，结果就是这段时间我没有做且没有看日总结了。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近发现在个人提醒这块，不能做自动化，因为我发现做完自动化之后，我就会把这事给忘干净了。比如我让AI替我做每日总结，根据我的日报，结果就是这段时间我没有做且没有看日总结了。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小红书招聘引流效率反思</title>
+    <link href="http://blog.wayss000.cn/2026/06/03/weibo/mjqwmduyoda1/"/>
+    <id>http://blog.wayss000.cn/2026/06/03/weibo/mjqwmduyoda1/</id>
+    <published>2026-06-03T14:33:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>尝试在小红书发布招聘信息，确实有人关注和收藏以及私聊投简历，但是和BOSS直聘相比，效率还是太低了。所以，需要思考小红书合适做什么？</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;尝试在小红书发布招聘信息，确实有人关注和收藏以及私聊投简历，但是和BOSS直聘相比，效率还是太低了。所以，需要思考小红书合适做什么？&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>警惕大模型陷入错误循环</title>
+    <link href="http://blog.wayss000.cn/2026/06/02/weibo/mjm5odqxmtiy/"/>
+    <id>http://blog.wayss000.cn/2026/06/02/weibo/mjm5odqxmtiy/</id>
+    <published>2026-06-02T11:33:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨晚花了将近2个小时，再让doubao在dolphinschedule上创建工作流，以及让doubao配置GPT模型，最终一直没有成功。其实我应该在AI第三次犯错时，及时介入，我自己看看文档，因为我发现当前的大语言模型还是容易陷入到“错误循环”中。</p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/mjm5odqxmtiy-1.png" alt="笔记图片1"></p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/mjm5odqxmtiy-2.png" alt="笔记图片2"></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;昨晚花了将近2个小时，再让doubao在dolphinschedule上创建工作流，以及让doubao配置GPT模型，最终一直没有成功。其实我应该在AI第三次犯错时，及时介入，我自己看看文档，因为我发现当前的大语言模型还是容易陷入到“错误循环”中。&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>按使用频率决定购物预算</title>
+    <link href="http://blog.wayss000.cn/2026/05/28/weibo/mjm5mdy1njk3/"/>
+    <id>http://blog.wayss000.cn/2026/05/28/weibo/mjm5mdy1njk3/</id>
+    <published>2026-05-28T16:42:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>和媳妇聊的时候，对于购物的预算，有了一个新的定价模型—-按照使用频率。使用频率高的，预算就应该高一些，买品质好的，而不是同类有更低价的。这样推演下来，使用频率低的，可能就不买了。哈哈。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;和媳妇聊的时候，对于购物的预算，有了一个新的定价模型—-按照使用频率。使用频率高的，预算就应该高一些，买品质好的，而不是同类有更低价的。这样推演下来，使用频率低的，可能就不买了。哈哈。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>被短视频切碎的专注力</title>
+    <link href="http://blog.wayss000.cn/2026/05/20/weibo/mjm3njkwnzcy/"/>
+    <id>http://blog.wayss000.cn/2026/05/20/weibo/mjm3njkwnzcy/</id>
+    <published>2026-05-20T17:09:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>刚才上厕所，旁边的一个同事，一手扶着JJ，一手拿着手机，手机还是3倍速播放（有声音）。我在想，他的专注力已经被破坏到啥程度了呀。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;刚才上厕所，旁边的一个同事，一手扶着JJ，一手拿着手机，手机还是3倍速播放（有声音）。我在想，他的专注力已经被破坏到啥程度了呀。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Agent 一多，人就乱了</title>
+    <link href="http://blog.wayss000.cn/2026/04/03/weibo/2026-04-03_22-09-mji5njy2mja1/"/>
+    <id>http://blog.wayss000.cn/2026/04/03/weibo/2026-04-03_22-09-mji5njy2mja1/</id>
+    <published>2026-04-03T22:09:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>嫌等待AI回复慢，同时开多个Agent，发现自己的大脑切换不过来，尝试的效果是，经常忘记了自己在干嘛。。。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;嫌等待AI回复慢，同时开多个Agent，发现自己的大脑切换不过来，尝试的效果是，经常忘记了自己在干嘛。。。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>短视频如何偷走思考</title>
+    <link href="http://blog.wayss000.cn/2026/04/01/weibo/2026-04-01_2307/"/>
+    <id>http://blog.wayss000.cn/2026/04/01/weibo/2026-04-01_2307/</id>
+    <published>2026-04-01T23:07:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>刷短视频最大的坏处是，它会让你的大脑停止思考，即使是过电影那样的思考也会停止。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;刷短视频最大的坏处是，它会让你的大脑停止思考，即使是过电影那样的思考也会停止。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高架上的俯瞰感</title>
+    <link href="http://blog.wayss000.cn/2026/03/31/weibo/2026-03-31_1425/"/>
+    <id>http://blog.wayss000.cn/2026/03/31/weibo/2026-03-31_1425/</id>
+    <published>2026-03-31T14:25:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>坐在行驶在高架桥的高铁上，往下看，看到田地，小树，小人，路上跑的小汽车，坐落有序的村落。也挺感慨的，是什么力量让这么大的国家，这么多的人有序的运行着。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;坐在行驶在高架桥的高铁上，往下看，看到田地，小树，小人，路上跑的小汽车，坐落有序的村落。也挺感慨的，是什么力量让这么大的国家，这么多的人有序的运行着。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>努力，也别透支身体</title>
+    <link href="http://blog.wayss000.cn/2026/03/24/weibo/mji3odq3mtuy/"/>
+    <id>http://blog.wayss000.cn/2026/03/24/weibo/mji3odq3mtuy/</id>
+    <published>2026-03-24T23:03:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>张雪峰因心脏骤停猝死了，想起了几年前左耳朵耗子也是因为心脏骤停猝死。挺感慨的，他们都是非常努力、勤奋的人。<br>今天ChatGPT推荐我看《稀缺》，贫穷的人，时间不够的人，很容易陷入恶性循环。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;张雪峰因心脏骤停猝死了，想起了几年前左耳朵耗子也是因为心脏骤停猝死。挺感慨的，他们都是非常努力、勤奋的人。&lt;br&gt;今天ChatGPT推荐我看《稀缺》，贫穷的人，时间不够的人，很容易陷入恶性循环。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>研究 AI，开始有回报了</title>
+    <link href="http://blog.wayss000.cn/2026/03/24/weibo/mji3ode4mzy2/"/>
+    <id>http://blog.wayss000.cn/2026/03/24/weibo/mji3ode4mzy2/</id>
+    <published>2026-03-24T20:35:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近对我来说，有一个非常好的正反馈：公司组织了个AI比赛，鼓励大家使用OpenClaw搭建智能体，允许组队。已经有3个人找我组队了。这是对我之前花时间研究的一个很好的正反馈。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近对我来说，有一个非常好的正反馈：公司组织了个AI比赛，鼓励大家使用OpenClaw搭建智能体，允许组队。已经有3个人找我组队了。这是对我之前花时间研究的一个很好的正反馈。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>腾讯总能吃到螃蟹</title>
+    <link href="http://blog.wayss000.cn/2026/03/22/weibo/mji3mzqzmzu4/"/>
+    <id>http://blog.wayss000.cn/2026/03/22/weibo/mji3mzqzmzu4/</id>
+    <published>2026-03-22T11:05:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>腾讯不做第一个吃螃蟹的人，但是总能吃到螃蟹。</p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/mji3mzqzmzu4-1.png" alt="笔记图片1"></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;腾讯不做第一个吃螃蟹的人，但是总能吃到螃蟹。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/mji3mzqzmzu4-1.png&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>程序员正带着 AI 卷向各行各业</title>
+    <link href="http://blog.wayss000.cn/2026/03/20/weibo/mji3mdyxndy0/"/>
+    <id>http://blog.wayss000.cn/2026/03/20/weibo/mji3mdyxndy0/</id>
+    <published>2026-03-20T15:37:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>刷抖音看到这么一个观点：AI最大的改变，在于让程序员卷到其他行业了。然后下面有评论说：他们运营之前用Excel做数据表格很厉害，自从来了一个从程序员转行过来的人，搞自动化、搞分析看板，他们现在开会只需要看看自动化看板，不用再手动导数了。还有一个评论说，程序员先干死了自己，现在又带着AI大军干各行各业。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;刷抖音看到这么一个观点：AI最大的改变，在于让程序员卷到其他行业了。然后下面有评论说：他们运营之前用Excel做数据表格很厉害，自从来了一个从程序员转行过来的人，搞自动化、搞分析看板，他们现在开会只需要看看自动化看板，不用再手动导数了。还有一个评论说，程序员先干死了自己，现</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>保重身体，等未来到来</title>
+    <link href="http://blog.wayss000.cn/2026/03/19/weibo/mji2oti5mdk2/"/>
+    <id>http://blog.wayss000.cn/2026/03/19/weibo/mji2oti5mdk2/</id>
+    <published>2026-03-19T21:12:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天体检，发现是中度脂肪肝了，两年前还是轻度脂肪肝。我在想，AI发展的这么快，再过10年，可能大家工作都不需要这么累了，有可能因生产力过剩进入大同社会。哎，保重身体吧。未来可能是活得越久，越能够见证这个世界的改变，希望有生之年，能够看到人类登录火星。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天体检，发现是中度脂肪肝了，两年前还是轻度脂肪肝。我在想，AI发展的这么快，再过10年，可能大家工作都不需要这么累了，有可能因生产力过剩进入大同社会。哎，保重身体吧。未来可能是活得越久，越能够见证这个世界的改变，希望有生之年，能够看到人类登录火星。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>本地折腾模型，ROI 太低</title>
+    <link href="http://blog.wayss000.cn/2026/03/18/weibo/mji2nzqwndex/"/>
+    <id>http://blog.wayss000.cn/2026/03/18/weibo/mji2nzqwndex/</id>
+    <published>2026-03-18T21:14:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>反思这两天自己安装Qwen 3.5- 9B 模型，这是一件ROI极低的事情。理想是，假设安装好了，本地就可以使用了，但对个人来说，它肯定没模型厂商提供的好。对公司来说，现在也有模型团队，专门负责自研模型，我做这事，效率低不专业。从技术上来说，我也就是执行了几条命令，然后把时间都耗费在网络上。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;反思这两天自己安装Qwen 3.5- 9B</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AI 放大有想法的人</title>
+    <link href="http://blog.wayss000.cn/2026/03/18/weibo/mji2njgzmtq0/"/>
+    <id>http://blog.wayss000.cn/2026/03/18/weibo/mji2njgzmtq0/</id>
+    <published>2026-03-18T15:16:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>AI确实给有想法的人提供了更多可能性，AI就是个杠杆。群里的产品、设计都在做自己的产品，遇到的问题是如何部署到服务器上。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;AI确实给有想法的人提供了更多可能性，AI就是个杠杆。群里的产品、设计都在做自己的产品，遇到的问题是如何部署到服务器上。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用 Claude Code 清理磁盘</title>
+    <link href="http://blog.wayss000.cn/2026/03/18/weibo/mji2njq2njm5/"/>
+    <id>http://blog.wayss000.cn/2026/03/18/weibo/mji2njq2njm5/</id>
+    <published>2026-03-18T11:43:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>Mac磁盘快满了（共256G），之前试过一些Mac上的图形化磁盘清理工具，效果也都一般般，因此电脑上没有长期安装。这次用Claude Code分析磁盘使用量，感觉效果非常好。</p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/mji2njq2njm5-1.png" alt="笔记图片1"></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Mac磁盘快满了（共256G），之前试过一些Mac上的图形化磁盘清理工具，效果也都一般般，因此电脑上没有长期安装。这次用Claude Code分析磁盘使用量，感觉效果非常好。&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AI 让 DevOps 成了新门槛</title>
+    <link href="http://blog.wayss000.cn/2026/03/18/weibo/mji2njq1mtg2/"/>
+    <id>http://blog.wayss000.cn/2026/03/18/weibo/mji2njq1mtg2/</id>
+    <published>2026-03-18T11:35:00.000Z</published>
+    <updated>2026-06-13T03:01:01.834Z</updated>
+    
+    <content type="html"><![CDATA[<p>群里热闹的讨论着网站开发好后如何部署？大部分都是产品、设计等非技术。AI赋能了项目落地，但短期，DevOps还是他们的一个小瓶颈（算不上程序员的长期壁垒）。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;群里热闹的讨论着网站开发好后如何部署？大部分都是产品、设计等非技术。AI赋能了项目落地，但短期，DevOps还是他们的一个小瓶颈（算不上程序员的长期壁垒）。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+</feed>
