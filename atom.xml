@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>拾水木的博客</title>
+  
+  
+  <link href="http://blog.wayss000.cn/atom.xml" rel="self"/>
+  
+  <link href="http://blog.wayss000.cn/"/>
+  <updated>2026-11-26T07:21:49.197Z</updated>
+  <id>http://blog.wayss000.cn/</id>
+  
+  <author>
+    <name>大冬瓜头</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AI Dictionary更好用的翻译词典</title>
+    <link href="http://blog.wayss000.cn/2026/11/19/AI/AI%20Dictionary%E6%9B%B4%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BF%BB%E8%AF%91%E8%AF%8D%E5%85%B8/"/>
+    <id>http://blog.wayss000.cn/2026/11/19/AI/AI%20Dictionary%E6%9B%B4%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BF%BB%E8%AF%91%E8%AF%8D%E5%85%B8/</id>
+    <published>2026-11-19T10:59:00.000Z</published>
+    <updated>2026-11-26T07:21:49.197Z</updated>
+    
+    <content type="html"><![CDATA[<p>经常使用Mac词典的你有没有发现，有些时候Mac的词典查的字含义不是自己想要的，有些时候Mac的词典查不出一些新的变种单词。这时候你发现大语言模型本来就可以做翻译。</p><span id="more"></span><h2 id="用大语言模型查词"><a href="#用大语言模型查词" class="headerlink" title="用大语言模型查词"></a>用大语言模型查词</h2><p>基于这个发现，我做了一款词典翻译功能。</p><p>比如下面的Transformer，用Mac原生的词典翻译，它只有变压器一个解释，但用大语言模型给它翻译的时候，它有一定概率也只会翻译成变压器。但是如果我们在后面加上一个LLM，那它的翻译就是Transformer模型了，如下图。</p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202611191122317.png" alt="image-20261119112254246"></p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202611191124714.png" alt="image-20261119112424646"></p><h2 id="配置翻译模型"><a href="#配置翻译模型" class="headerlink" title="配置翻译模型"></a>配置翻译模型</h2><p>由于是基于大语言模型的翻译，因此在使用之前你必须先配置大模型。你可以自定义配置，使用官方的或使用中转站的模型，也可以使用ChatGPT登录。</p><p>我的建议是选择最便宜的、速度最快的模型即可，同时可以用它作为Mac原生词典的一个补充。</p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202611191128873.png" alt="image-20261119112850813"></p><h2 id="开源代码与产品介绍"><a href="#开源代码与产品介绍" class="headerlink" title="开源代码与产品介绍"></a>开源代码与产品介绍</h2><p>代码我也开源了，并且为它做了一个产品介绍页。</p><p>开源代码：<a href="https://github.com/wayss000/ai_dictionary">https://github.com/wayss000/ai_dictionary</a></p><p>介绍页：<a href="https://blog.wayss000.com/ai_dictionary/">https://blog.wayss000.com/ai_dictionary/</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;经常使用Mac词典的你有没有发现，有些时候Mac的词典查的字含义不是自己想要的，有些时候Mac的词典查不出一些新的变种单词。这时候你发现大语言模型本来就可以做翻译。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="AI" scheme="http://blog.wayss000.cn/categories/AI/"/>
+    
+    <category term="工具" scheme="http://blog.wayss000.cn/categories/AI/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="工具" scheme="http://blog.wayss000.cn/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TimeFloat，一款Mac时间插件</title>
+    <link href="http://blog.wayss000.cn/2026/11/19/AI/TimeFloat%EF%BC%8C%E4%B8%80%E6%AC%BEMac%E6%97%B6%E9%97%B4%E6%8F%92%E4%BB%B6/"/>
+    <id>http://blog.wayss000.cn/2026/11/19/AI/TimeFloat%EF%BC%8C%E4%B8%80%E6%AC%BEMac%E6%97%B6%E9%97%B4%E6%8F%92%E4%BB%B6/</id>
+    <published>2026-11-19T10:39:00.000Z</published>
+    <updated>2026-11-26T07:21:49.197Z</updated>
+    
+    <content type="html"><![CDATA[<p>当你有多个显示器，想用其中一个显示器快速查看时间的时候，你会发现Mac的时间太小了。因此你需要一个大一点的，悬浮在桌面能够随意调整位置和大小的一个时间工具。</p><span id="more"></span><p>于是我用Vibe Coding开发了这么一款小工具，名叫「TimeFloat」。它的体积非常小，不到300Kb。</p><p>我给它做了一个下载页，方便查看：<a href="https://blog.wayss000.com/mac_time_float/">https://blog.wayss000.com/mac_time_float/</a></p><p>代码我也开源了，如果你也有想法，欢迎贡献PR：<a href="https://github.com/wayss000/mac_time_float">https://github.com/wayss000/mac_time_float</a></p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202611191103536.png" alt="image-20261119110336457"></p><p>下面附两张在使用中的一个截图。</p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202611191057875.png" alt="image-20261119105722813"></p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/202611191052303.png" alt="image-20261119105232138"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;当你有多个显示器，想用其中一个显示器快速查看时间的时候，你会发现Mac的时间太小了。因此你需要一个大一点的，悬浮在桌面能够随意调整位置和大小的一个时间工具。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="AI" scheme="http://blog.wayss000.cn/categories/AI/"/>
+    
+    <category term="工具" scheme="http://blog.wayss000.cn/categories/AI/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="工具" scheme="http://blog.wayss000.cn/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>写代码可以提速，学习还得慢慢悟</title>
+    <link href="http://blog.wayss000.cn/2026/10/27/weibo/mjyyoteznzk3/"/>
+    <id>http://blog.wayss000.cn/2026/10/27/weibo/mjyyoteznzk3/</id>
+    <published>2026-10-27T20:22:00.000Z</published>
+    <updated>2026-11-26T07:21:49.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>干活、写代码的话，可以用各种工具提速、提效。但是我发现学习的话，不能使用AI工具找个答案，只能自己慢慢悟，我自己推测可能和大脑神经突触的生长速度有关系。因为“长脑子”时脑子长得没有那么快。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;干活、写代码的话，可以用各种工具提速、提效。但是我发现学习的话，不能使用AI工具找个答案，只能自己慢慢悟，我自己推测可能和大脑神经突触的生长速度有关系。因为“长脑子”时脑子长得没有那么快。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从人生的终点倒排时间</title>
+    <link href="http://blog.wayss000.cn/2026/10/23/weibo/mjyymjy4ode2/"/>
+    <id>http://blog.wayss000.cn/2026/10/23/weibo/mjyymjy4ode2/</id>
+    <published>2026-10-23T11:01:00.000Z</published>
+    <updated>2026-11-26T07:21:49.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>关于“正排期”和“倒排期”我有了新的理解。我觉得人生中所有的事，都应该“倒排期”，有一个明确的DDL，当然，允许你提前完成，也允许你延后完成。为什么？因为一个人的人生是有一个明确DDL，那就是死亡。你不可能因为事情没做完，而“多活几年”；只是，你可以因为做事效率高，而多做很多事。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;关于“正排期”和“倒排期”我有了新的理解。我觉得人生中所有的事，都应该“倒排期”，有一个明确的DDL，当然，允许你提前完成，也允许你延后完成。为什么？因为一个人的人生是有一个明确DDL，那就是死亡。你不可能因为事情没做完，而“多活几年”；只是，你可以因为做事效率高，而多做很</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>注意力与代码细节的取舍思考</title>
+    <link href="http://blog.wayss000.cn/2026/10/13/weibo/mjywnzk4otm5/"/>
+    <id>http://blog.wayss000.cn/2026/10/13/weibo/mjywnzk4otm5/</id>
+    <published>2026-10-13T15:18:00.000Z</published>
+    <updated>2026-11-26T07:21:49.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>当把核心注意力放到逻辑上时，自然就无法关注到代码细节了。记：看到Cursor把默认首页换成和Codex一样、Work Buddy也是这样时的一个思考。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;当把核心注意力放到逻辑上时，自然就无法关注到代码细节了。记：看到Cursor把默认首页换成和Codex一样、Work</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>养了五年的发财树没能坚持下来</title>
+    <link href="http://blog.wayss000.cn/2026/10/07/weibo/mju5ody1mtew/"/>
+    <id>http://blog.wayss000.cn/2026/10/07/weibo/mju5ody1mtew/</id>
+    <published>2026-10-07T21:09:00.000Z</published>
+    <updated>2026-11-26T07:21:49.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>还是挺遗憾的，这个发财树已经养了 5 年多的时间了吧。这是和我媳妇还刚认识的时候，她送我的。经历过两次搬家；经历过好几轮的给它换盆、换土，也经历过两次抢救（今年 1 月，以及国庆前），但最终还是没有坚持下来，挺遗憾的。</p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/mju5ody1mtew-1.jpg" alt="笔记图片1"></p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/mju5ody1mtew-2.jpg" alt="笔记图片2"></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;还是挺遗憾的，这个发财树已经养了 5 年多的时间了吧。这是和我媳妇还刚认识的时候，她送我的。经历过两次搬家；经历过好几轮的给它换盆、换土，也经历过两次抢救（今年 1 月，以及国庆前），但最终还是没有坚持下来，挺遗憾的。&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AI Native Coder：如何设置可信任的Agent？</title>
+    <link href="http://blog.wayss000.cn/2026/09/30/AI/AI%20Native%20Coder%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AE%E5%8F%AF%E4%BF%A1%E4%BB%BB%E7%9A%84Agent%EF%BC%9F/"/>
+    <id>http://blog.wayss000.cn/2026/09/30/AI/AI%20Native%20Coder%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AE%E5%8F%AF%E4%BF%A1%E4%BB%BB%E7%9A%84Agent%EF%BC%9F/</id>
+    <published>2026-09-30T00:00:00.000Z</published>
+    <updated>2026-11-26T07:21:49.197Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>AI 写代码很快，但我怎么知道它写的代码是对的？如果AI每次改完都要人工跑一遍，那多开几个 Agent，只会多增加人的工作量。<br>如何配置让Agent的代码更可信呢？</p><span id="more"></span><h3 id="一、让-Agent-有验证的能力"><a href="#一、让-Agent-有验证的能力" class="headerlink" title="一、让 Agent 有验证的能力"></a>一、让 Agent 有验证的能力</h3><p>让 Agent 自己启动应用，按用户的操作走一遍，再用日志、截图或测试结果说明改动有没有生效。把功能入口和操作步骤记在 Feature Map 里，它下次就知道去哪里验证。最后让它写清楚哪些通过了、哪些失败了、哪些没跑。</p><p>排查线上问题也是一样。我之前用 ego browser 让 AI 打开 Grafana、查线上日志。后来公司运维团队出了 Skill 和工具，Agent 可以通过运维工具直接查容器云、Grafana、API Six 等系统里的信息。</p><h3 id="二、用高质量的-Skill，让-Agent-像工程师一样工作"><a href="#二、用高质量的-Skill，让-Agent-像工程师一样工作" class="headerlink" title="二、用高质量的 Skill，让 Agent 像工程师一样工作"></a>二、用高质量的 Skill，让 Agent 像工程师一样工作</h3><p>把自己的编码风格、排查步骤和验收习惯写成 Skill。比如发现 Agent 经常没把调用链看完就下结论，就把自己平时怎么查的步骤写进去。Lauren Tan 的开源 Cursor 插件 pstack 就是个例子。 <a href="https://github.com/cursor/plugins/blob/main/pstack/README.md">pstack 官方仓库</a></p><p>Skill 写完怎么知道够不够好？<br>挑几个常见任务和以前做错的案例，先定通过标准，再让 Agent 实际跑一遍，看它的操作和结果。<br>这就是 Eval。可以让一个模型执行，另一个模型按标准看证据。需求变了就更新用例，改完 Skill 把新旧用例都跑一遍。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">- wayss-coding-skill</span><br><span class="line">-  java-style-guide.md</span><br><span class="line">-  python-style-guide.md</span><br><span class="line">-  go-style-guide.md</span><br><span class="line"></span><br></pre></td></tr></table></figure><h3 id="三、把架构改得对-Agent-更友好"><a href="#三、把架构改得对-Agent-更友好" class="headerlink" title="三、把架构改得对 Agent 更友好"></a>三、把架构改得对 Agent 更友好</h3><p>把同一个功能的代码放在一起，模块边界定清楚，Agent 改一个功能就不用到处找代码。<br>像「不能跨模块直接引用内部实现」这种每次 review 都要提醒的事，可以写成 lint 规则，让 CI 直接拦住。</p><ul><li>codebase</li><li>feature map</li><li>static analysis</li><li>rules &#x2F; bugbot</li><li>style guide</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">codebase</span><br><span class="line">  xx1 : 代码作用</span><br><span class="line">  xx2 : 仓库作用</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;AI 写代码很快，但我怎么知道它写的代码是对的？如果AI每次改完都要人工跑一遍，那多开几个 Agent，只会多增加人的工作量。&lt;br&gt;如何配置让Agent的代码更可信呢？&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="AI" scheme="http://blog.wayss000.cn/categories/AI/"/>
+    
+    <category term="工具" scheme="http://blog.wayss000.cn/categories/AI/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="工具" scheme="http://blog.wayss000.cn/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>依赖AI反而拖慢了我的理财进度</title>
+    <link href="http://blog.wayss000.cn/2026/09/22/weibo/mju3odgwmjcx/"/>
+    <id>http://blog.wayss000.cn/2026/09/22/weibo/mju3odgwmjcx/</id>
+    <published>2026-09-22T23:50:00.000Z</published>
+    <updated>2026-11-26T07:21:49.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>感觉最近大半年在理财等方面进度策略缓慢，主要是想依赖 AI ，但是 AI 给的方案往往太泛了，不能使用，同时时间也浪费了。所以一事无成。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;感觉最近大半年在理财等方面进度策略缓慢，主要是想依赖 AI ，但是 AI</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>不用待办清单后，我做完了更多事</title>
+    <link href="http://blog.wayss000.cn/2026/08/26/weibo/mjuznzawntqx/"/>
+    <id>http://blog.wayss000.cn/2026/08/26/weibo/mjuznzawntqx/</id>
+    <published>2026-08-26T19:29:00.000Z</published>
+    <updated>2026-11-26T07:21:49.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近发现不实用ToDo List清单软件后执行效率反而更高了。不知道是不是因为记录到清单上就会计划之后去做，但是明天有明天要忙的，因此就一直拖延。最近不用清单，脑子里想到之后，就会立马去做，成就成，不成就不深究了。发现反而完成的事更多了。暂时的体感，不知道未来会不会变。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近发现不实用ToDo</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>遇到问题先自己想方案</title>
+    <link href="http://blog.wayss000.cn/2026/08/26/weibo/mjuznjq1otu1/"/>
+    <id>http://blog.wayss000.cn/2026/08/26/weibo/mjuznjq1otu1/</id>
+    <published>2026-08-26T12:45:00.000Z</published>
+    <updated>2026-11-26T07:21:49.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近这段时间，遇到问题，我想优先自己搞方案。之前总想着找 AI。可能是经过这一年多，我让 AI 优先设计的方案，都不让我满意。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近这段时间，遇到问题，我想优先自己搞方案。之前总想着找 AI。可能是经过这一年多，我让 AI</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>收入和劳动能帮到多少人有关吗</title>
+    <link href="http://blog.wayss000.cn/2026/08/13/weibo/mjuxnjy4njg4/"/>
+    <id>http://blog.wayss000.cn/2026/08/13/weibo/mjuxnjy4njg4/</id>
+    <published>2026-08-13T16:12:00.000Z</published>
+    <updated>2026-11-26T07:21:49.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>刚看到一个消息，西安某工会驿站死了一名外卖单王。发现的时候身体都硬了。想起了于东来：要快乐的生活。在思考，为什么有些企业家，看起来一点都不忙，但是收入很高；有些人，忙忙碌碌一生， 但是却挣不了几个钱。我想到的答案是，“看你的劳动，能够帮忙多少人”。胖东来超市创建好后，每天能够服务上万人；微信、QQ每天上亿的日活；抖音、快手也是每天上亿的日活，因为他们能够帮忙那么多人，不管是娱乐还是生活。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;刚看到一个消息，西安某工会驿站死了一名外卖单王。发现的时候身体都硬了。想起了于东来：要快乐的生活。在思考，为什么有些企业家，看起来一点都不忙，但是收入很高；有些人，忙忙碌碌一生，</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YouTube三天广告收入顶B站一个月</title>
+    <link href="http://blog.wayss000.cn/2026/08/05/weibo/mjuwmjkwmtiw/"/>
+    <id>http://blog.wayss000.cn/2026/08/05/weibo/mjuwmjkwmtiw/</id>
+    <published>2026-08-05T10:36:00.000Z</published>
+    <updated>2026-11-26T07:21:49.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>群友分享他在 YouTube 上 3 天的广告收入，就顶上 B 站一个月的了。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;群友分享他在 YouTube 上 3 天的广告收入，就顶上 B</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>渴望成功愿付非凡代价</title>
+    <link href="http://blog.wayss000.cn/2026/08/02/weibo/mjq5nzg3ote1/"/>
+    <id>http://blog.wayss000.cn/2026/08/02/weibo/mjq5nzg3ote1/</id>
+    <published>2026-08-02T20:41:00.000Z</published>
+    <updated>2026-11-26T07:21:49.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>极度渴望成功，愿付非凡代价。</p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/mjq5nzg3ote1-1.jpg" alt="笔记图片1"></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;极度渴望成功，愿付非凡代价。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/mjq5nzg3ote1-1.jpg&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>饭桌上有人聊代码，有人聊协作</title>
+    <link href="http://blog.wayss000.cn/2026/07/22/weibo/mjq4mdm2nzk0/"/>
+    <id>http://blog.wayss000.cn/2026/07/22/weibo/mjq4mdm2nzk0/</id>
+    <published>2026-07-22T19:01:00.000Z</published>
+    <updated>2026-11-26T07:21:49.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>刚才吃饭，我坐下之后。右边来了两个看起来工作没多久的男生，估计 3 年内吧，我称他俩为小朋友。又过会，我左边来了两个看着年龄就比我大的，工作挺久的男生，我称他俩为老登。那两个小朋友一个给一个说，今天又解决了一个 Request 请求里面 ID 类型转换不对的问题；另一个给这个说，干活不能被打太满。传授他的职场哲学。而那两个老登，一开口，一个就对另一个说，今天和某一个团队合作上怎么着，然后分析某件事，老板怎么看。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;刚才吃饭，我坐下之后。右边来了两个看起来工作没多久的男生，估计 3 年内吧，我称他俩为小朋友。又过会，我左边来了两个看着年龄就比我大的，工作挺久的男生，我称他俩为老登。那两个小朋友一个给一个说，今天又解决了一个 Request 请求里面 ID</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>有了AI，工程师还需要学Git吗</title>
+    <link href="http://blog.wayss000.cn/2026/07/22/weibo/mjq4mde3oty4/"/>
+    <id>http://blog.wayss000.cn/2026/07/22/weibo/mjq4mde3oty4/</id>
+    <published>2026-07-22T16:36:00.000Z</published>
+    <updated>2026-11-26T07:21:49.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>基于GitHub一个开源项目做二次开发，想把之前的git log都隐藏并合并为一条 init from github。这活交给Codex干，结果远超我预期。想起来我的第一篇阅读超过10w+技术blog，就是介绍GitHub上的git 同步的技巧。当时也是折腾了挺久才把git的命令搞清楚。而现在AI可以更高效、更超预期的完成这份工作。以后的软件工程师还需要学习Git这种基本工具吗？哈哈哈，好奇再过几年会怎么变化。</p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/mjq4mde3oty4-1.png" alt="笔记图片1"></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;基于GitHub一个开源项目做二次开发，想把之前的git log都隐藏并合并为一条 init from github。这活交给Codex干，结果远超我预期。想起来我的第一篇阅读超过10w+技术blog，就是介绍GitHub上的git</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从多Pod部署重新认识Temporal</title>
+    <link href="http://blog.wayss000.cn/2026/07/22/weibo/mjq3otk5nji1/"/>
+    <id>http://blog.wayss000.cn/2026/07/22/weibo/mjq3otk5nji1/</id>
+    <published>2026-07-22T14:36:00.000Z</published>
+    <updated>2026-11-26T07:21:49.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>在调研AgentRuntime的生产环境多Pod部署，ChatGPT给我推荐了Temporal。恍惚之间想起一年多前，我们组那位微软来的大佬，引入了Temporal来解决我们系统中，图文、视频生产时，资源分配问题。在思考，确实是遇到问题时，会逼着人思考、调研来解决问题。一年前我做图文生产时，主要还是解决生产内容的质量问题，并没有深入全局的思考分布式部署问题。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在调研AgentRuntime的生产环境多Pod部署，ChatGPT给我推荐了Temporal。恍惚之间想起一年多前，我们组那位微软来的大佬，引入了Temporal来解决我们系统中，图文、视频生产时，资源分配问题。在思考，确实是遇到问题时，会逼着人思考、调研来解决问题。一年</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>花叔的表达与商业化能力值得关注</title>
+    <link href="http://blog.wayss000.cn/2026/06/16/weibo/mjqymjewmtky/"/>
+    <id>http://blog.wayss000.cn/2026/06/16/weibo/mjqymjewmtky/</id>
+    <published>2026-06-16T10:30:00.000Z</published>
+    <updated>2026-11-26T07:21:49.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近关注到「花叔」，看了他的补光灯App，确实挺简陋的。但是看了他的个人主页，github主页，以及他的B站视频，非常佩服他的表达能力、商业化能力、设计能力。同时，发现他现在主要的卖点貌似是卖课。</p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/mjqymjewmtky-1.png" alt="笔记图片1"></p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/mjqymjewmtky-2.png" alt="笔记图片2"></p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/mjqymjewmtky-3.png" alt="笔记图片3"></p><p><img src="https://cdn.jsdelivr.net/gh/wayss000/blog-pic/pic/mjqymjewmtky-4.png" alt="笔记图片4"></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近关注到「花叔」，看了他的补光灯App，确实挺简陋的。但是看了他的个人主页，github主页，以及他的B站视频，非常佩服他的表达能力、商业化能力、设计能力。同时，发现他现在主要的卖点貌似是卖课。&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>相机博主用Vibe Coding做对比网站</title>
+    <link href="http://blog.wayss000.cn/2026/06/14/weibo/mjqxodc5njmy/"/>
+    <id>http://blog.wayss000.cn/2026/06/14/weibo/mjqxodc5njmy/</id>
+    <published>2026-06-14T11:26:00.000Z</published>
+    <updated>2026-11-26T07:21:49.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>关注了一个做相机评测的博主，今天看他的视频。他自己开发了一个网站，专门做不同的类型的相机对比。感叹对于有自己业务的人，Vibe Coding作为杠杆提升确实很大。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;关注了一个做相机评测的博主，今天看他的视频。他自己开发了一个网站，专门做不同的类型的相机对比。感叹对于有自己业务的人，Vibe</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AI取代编程岗位而非工程师</title>
+    <link href="http://blog.wayss000.cn/2026/06/12/weibo/mjqxntu0nze0/"/>
+    <id>http://blog.wayss000.cn/2026/06/12/weibo/mjqxntu0nze0/</id>
+    <published>2026-06-12T13:00:00.000Z</published>
+    <updated>2026-11-26T07:21:49.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>听到两人聊天说，现在发现AI最先取代的可能是程序员。我觉得这句话只说对了一半，AI取代的是编程这个岗位。但淘汰不了软件开发工程师这波人。因为这帮人的学历水平、创造力、认知相对来说都是比较高的。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;听到两人聊天说，现在发现AI最先取代的可能是程序员。我觉得这句话只说对了一半，AI取代的是编程这个岗位。但淘汰不了软件开发工程师这波人。因为这帮人的学历水平、创造力、认知相对来说都是比较高的。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>省事求AI反而更费事</title>
+    <link href="http://blog.wayss000.cn/2026/06/10/weibo/mjqxmji4mtk1/"/>
+    <id>http://blog.wayss000.cn/2026/06/10/weibo/mjqxmji4mtk1/</id>
+    <published>2026-06-10T15:19:00.000Z</published>
+    <updated>2026-11-26T07:21:49.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>今早尝试让Hermes在它所在Ubuntu机器上用Docker安装一个web_search工具，最终它耗费了20多刀的GPT-5.4额度，把服务器安装死机了，也没弄好。我思考原因：一是我那台Ubuntu机器配置较低；二是最后需要Hermes修改自己的配置，这相当于让机器人给自己换电池，本身就容易出错。最后我登上服务器，认真看了Hermes的官方文档，写的很具体，很快就执行好了，不到10分钟。但是在我看官方文档之前，我问了ChatGPT和Gemini，想省事，结果更费事。目前，让AI干活体验最好的就是MacOS上运行的CodeX，本身不支持用户改它重要的配置，各种工具基本都内部集成了，MacOS安装也比较省事。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今早尝试让Hermes在它所在Ubuntu机器上用Docker安装一个web_search工具，最终它耗费了20多刀的GPT-5.4额度，把服务器安装死机了，也没弄好。我思考原因：一是我那台Ubuntu机器配置较低；二是最后需要Hermes修改自己的配置，这相当于让机器人给</summary>
+        
+      
+    
+    
+    
+    <category term="weibo" scheme="http://blog.wayss000.cn/categories/weibo/"/>
+    
+    
+    <category term="微博" scheme="http://blog.wayss000.cn/tags/%E5%BE%AE%E5%8D%9A/"/>
+    
+  </entry>
+  
+</feed>
